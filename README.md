@@ -16,18 +16,18 @@ dementsprechend ein kleiner Teil des REST-Interface zur Verfuegung.
 
 In der folgenden Tabelle sind exemplarisch am fiktiven Job "REPLACE_ME_2" die Routen angegeben:
 
-| Route                                                        | Methode | Bedeutung                                                            |
-|--------------------------------------------------------------|---------|----------------------------------------------------------------------|
-| http://srv-backend:1234/REPLACE_ME_2                            | POST    | Neue Ergebnisse an den Server schicken                               |
-| http://srv-backend:1234/REPLACE_ME_2                            | PUT     | Angaben zu Job / Git-Repository aendern                              |
-| http://srv-backend:1234/REPLACE_ME_2                            | GET     | JSON zu allen verfuegbaren Branches + generelle Infos                |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}                   | GET     | JSON mit generellen Infos zum Branch                                 |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}/{id}              | GET     | JSON mit generellen Infos zum Build vom Branch                       |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}/{id}/index.html   | GET     | jUnit-Report zum Build vom Branch                                    |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}/latest            | GET     | JSON mit generellen Infos zum letzten Build vom Branch               |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}/latest/index.html | GET     | jUnit-Report zum letzten Build vom Branch                            |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}                   | DELETE  | Loescht Branch mit all seinen Build-Reports                          |
-| http://srv-backend:1234/REPLACE_ME_2/{branch}/{numToKeep}       | DELETE  | Loescht alle Build-Reports vom Branch ausser die letzten {numToKeep} |
+| Route                                                            | Methode | Bedeutung                                                            |
+|------------------------------------------------------------------|---------|----------------------------------------------------------------------|
+| http://srv-backend:12346/REPLACE_ME_2                            | POST    | Neue Ergebnisse an den Server schicken                               |
+| http://srv-backend:12346/REPLACE_ME_2                            | PUT     | Angaben zu Job / Git-Repository aendern                              |
+| http://srv-backend:12346/REPLACE_ME_2                            | GET     | JSON zu allen verfuegbaren Branches + generelle Infos                |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}                   | GET     | JSON mit generellen Infos zum Branch                                 |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}/{id}              | GET     | JSON mit generellen Infos zum Build vom Branch                       |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}/{id}/index.html   | GET     | jUnit-Report zum Build vom Branch                                    |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}/latest            | GET     | JSON mit generellen Infos zum letzten Build vom Branch               |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}/latest/index.html | GET     | jUnit-Report zum letzten Build vom Branch                            |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}                   | DELETE  | Loescht Branch mit all seinen Build-Reports                          |
+| http://srv-backend:12346/REPLACE_ME_2/{branch}/{numToKeep}       | DELETE  | Loescht alle Build-Reports vom Branch ausser die letzten {numToKeep} |
 
 #### Upload von Ergebnissen
 
@@ -141,20 +141,20 @@ groesserer Teil des REST-Interface zur Verfügung.
 
 In der folgenden Tabelle sind exemplarisch am fiktiven Job "REPLACE_ME_1" die Routen angegeben:
 
-| Route                                                                          | Methode | Bedeutung                                                            |
-|--------------------------------------------------------------------------------|---------|----------------------------------------------------------------------|
-| http://srv-backend:1234/REPLACE_ME_1                                                  | POST    | Neue Ergebnisse an den Server schicken                               |
-| http://srv-backend:1234/REPLACE_ME_1                                                  | PUT     | Angaben zu Job / Git-Repository aendern                              |
-| http://srv-backend:1234/REPLACE_ME_1                                                  | GET     | JSON zu allen verfügbaren Branches + generelle Infos                 |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}                                         | GET     | JSON mit generellen Infos zum Branch                                 |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/{id}                                    | GET     | JSON mit generellen Infos zum Build vom Branch                       |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/{id}/index.html                         | GET     | jUnit-Report zum Build vom Branch                                    |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/{id}/projects/{subprojekt}/index.html   | GET     | jUnit-Report zum Subprojekt vom Build vom Branch                     |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/latest                                  | GET     | JSON mit generellen Infos zum letzten Build vom Branch               |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/latest/index.html                       | GET     | jUnit-Report zum letzten Build vom Branch                            |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/latest/projects/{subprojekt}/index.html | GET     | jUnit-Report zum Subprojekt vom letzten Build vom Branch             |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}                                         | DELETE  | Loescht Branch mit all seinen Build-Reports                          |
-| http://srv-backend:1234/REPLACE_ME_1/{branch}/{numToKeep}                             | DELETE  | Loescht alle Build-Reports vom Branch ausser die letzten {numToKeep} |
+| Route                                                                                  | Methode | Bedeutung                                                            |
+|----------------------------------------------------------------------------------------|---------|----------------------------------------------------------------------|
+| http://srv-backend:12346/REPLACE_ME_1                                                  | POST    | Neue Ergebnisse an den Server schicken                               |
+| http://srv-backend:12346/REPLACE_ME_1                                                  | PUT     | Angaben zu Job / Git-Repository aendern                              |
+| http://srv-backend:12346/REPLACE_ME_1                                                  | GET     | JSON zu allen verfügbaren Branches + generelle Infos                 |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}                                         | GET     | JSON mit generellen Infos zum Branch                                 |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/{id}                                    | GET     | JSON mit generellen Infos zum Build vom Branch                       |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/{id}/index.html                         | GET     | jUnit-Report zum Build vom Branch                                    |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/{id}/projects/{subprojekt}/index.html   | GET     | jUnit-Report zum Subprojekt vom Build vom Branch                     |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/latest                                  | GET     | JSON mit generellen Infos zum letzten Build vom Branch               |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/latest/index.html                       | GET     | jUnit-Report zum letzten Build vom Branch                            |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/latest/projects/{subprojekt}/index.html | GET     | jUnit-Report zum Subprojekt vom letzten Build vom Branch             |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}                                         | DELETE  | Loescht Branch mit all seinen Build-Reports                          |
+| http://srv-backend:12346/REPLACE_ME_1/{branch}/{numToKeep}                             | DELETE  | Loescht alle Build-Reports vom Branch ausser die letzten {numToKeep} |
 
 #### Upload von Ergebnissen
 
