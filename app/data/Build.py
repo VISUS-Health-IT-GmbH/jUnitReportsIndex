@@ -4,7 +4,7 @@
 """
 app/data/Build.py
 
-Copyright (C) 2021, VISUS Health IT GmbH
+Copyright (C) 2021-2023, VISUS Health IT GmbH
 This software and supporting documentation were developed by
   VISUS Health IT GmbH
   Gesundheitscampus-Sued 15
